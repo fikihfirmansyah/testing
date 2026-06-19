@@ -1,0 +1,101 @@
+{
+  "orders": [
+    {
+      "id": "PO-20260616-0001",
+      "sku": "SKU-KSL-X501",
+      "qty": 5,
+      "color": "Stealth Black",
+      "orderDate": "2026-06-15",
+      "estimatedCompletion": "2026-06-22 (7 hari)",
+      "photoFront": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=400&auto=format&fit=crop&q=60",
+      "photoSide": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=400&auto=format&fit=crop&q=60",
+      "photoSku": "https://images.unsplash.com/photo-1509695507497-903c140c43b0?w=400&auto=format&fit=crop&q=60",
+      "currentStatus": "ARRIVED_AT_GUDANG",
+      "statusHistory": [
+        {
+          "id": "h1",
+          "status": "TOKO_ORDERED",
+          "updatedAt": "2026-06-15T09:00:00Z",
+          "updatedBy": "Halat",
+          "notes": "Pesanan khusus customer setia optik 150k.",
+          "whatsappSent": true,
+          "whatsappGroup": "WA Group PO Optik-150K"
+        },
+        {
+          "id": "h2",
+          "status": "GUDANG_ORDERED_TO_SUPPLIER",
+          "updatedAt": "2026-06-15T14:30:00Z",
+          "updatedBy": "Hendra (Gudang Utama)",
+          "notes": "Diteruskan ke Supplier CV Optindo, estimasi 7-10 hari kerja.",
+          "whatsappSent": true,
+          "whatsappGroup": "WA Group PO Optik-150K"
+        },
+        {
+          "id": "h3",
+          "status": "ARRIVED_AT_GUDANG",
+          "updatedAt": "2026-06-16T10:15:00Z",
+          "updatedBy": "Boni (Logistik)",
+          "notes": "Mendarat dengan selamat, sedang pengecekan SKU & QC fisik.",
+          "whatsappSent": true,
+          "whatsappGroup": "WA Group PO Optik-150K"
+        }
+      ]
+    },
+    {
+      "id": "PO-20260616-0002",
+      "sku": "SKU-SLMR-990",
+      "qty": 12,
+      "color": "Rose Gold Transparent",
+      "orderDate": "2026-06-16",
+      "estimatedCompletion": "2026-06-23 (7 hari)",
+      "photoFront": "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=400&auto=format&fit=crop&q=60",
+      "photoSide": "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?w=400&auto=format&fit=crop&q=60",
+      "photoSku": "https://images.unsplash.com/photo-1591076482161-42ce6da69f67?w=400&auto=format&fit=crop&q=60",
+      "currentStatus": "GUDANG_ORDERED_TO_SUPPLIER",
+      "statusHistory": [
+        {
+          "id": "h4",
+          "status": "TOKO_ORDERED",
+          "updatedAt": "2026-06-16T08:15:00Z",
+          "updatedBy": "Mansyur",
+          "notes": "Orderan frame kacamata bulat titanium.",
+          "whatsappSent": true,
+          "whatsappGroup": "WA Group PO Optik-150K"
+        },
+        {
+          "id": "h5",
+          "status": "GUDANG_ORDERED_TO_SUPPLIER",
+          "updatedAt": "2026-06-16T11:00:00Z",
+          "updatedBy": "Aris (Gudang Puspus)",
+          "notes": "PO No 8892 dikirim ke Supplier Jaya Abadi, diwajibkan double bubble wrap.",
+          "whatsappSent": true,
+          "whatsappGroup": "WA Group PO Optik-150K"
+        }
+      ]
+    },
+    {
+      "id": "PO-20260616-0003",
+      "sku": "SKU-TITAN-X1",
+      "qty": 2,
+      "color": "Matte Gray Silver",
+      "orderDate": "2026-06-16",
+      "estimatedCompletion": "2026-06-23 (7 hari)",
+      "photoFront": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=400&auto=format&fit=crop&q=60",
+      "photoSide": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=400&auto=format&fit=crop&q=60",
+      "photoSku": "https://images.unsplash.com/photo-1509695507497-903c140c43b0?w=400&auto=format&fit=crop&q=60",
+      "currentStatus": "TOKO_ORDERED",
+      "statusHistory": [
+        {
+          "id": "h6",
+          "status": "TOKO_ORDERED",
+          "updatedAt": "2026-06-16T14:20:00Z",
+          "updatedBy": "Karya Dame",
+          "notes": "Gagang tebal, request ukuran box kacamata ukuran L.",
+          "whatsappSent": true,
+          "whatsappGroup": "WA Group PO Optik-150K"
+        }
+      ]
+    }
+  ],
+  "notifications": []
+}

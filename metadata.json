@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Monitoring Order Frame PO",
+  "description": "Sistem monitoring status pesanan Pre-Order (PO) frame secara real-time untuk gudang, toko, dan admin dengan notifikasi WhatsApp simulasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
